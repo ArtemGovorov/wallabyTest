@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "watch": true,
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "out",
+        "types": [ "node", "mocha", "chai", "jest" ],
+        "typeRoots": [
+            "./@types",
+            "./node_modules/@types"
+        ]
+    }
+}
